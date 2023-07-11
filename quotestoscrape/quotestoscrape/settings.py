@@ -12,6 +12,8 @@ BOT_NAME = 'quotestoscrape'
 SPIDER_MODULES = ['quotestoscrape.spiders']
 NEWSPIDER_MODULE = 'quotestoscrape.spiders'
 
+# LOG_LEVEL = 'WARNING'
+LOG_FILE = 'error.log'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'quotestoscrape (+http://www.yourdomain.com)'
